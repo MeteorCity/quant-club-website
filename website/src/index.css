@@ -43,7 +43,13 @@ header *:hover {
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 70px;
+}
+
+.events-page main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .events-txt-h1 {
@@ -51,5 +57,7 @@ main {
 }
 
 .events-box {
-  
+  background-color: rgb(215, 215, 215);
+  width: 800px;
+  height: 600px;
 }

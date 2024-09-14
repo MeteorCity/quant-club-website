@@ -8,7 +8,7 @@ function Events() {
       <main>
         <h1 className="events-txt-h1">Upcoming Events</h1>
         <div className="events-box">
-
+          
         </div>
       </main>
     </div>
