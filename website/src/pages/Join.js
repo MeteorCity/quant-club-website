@@ -19,7 +19,7 @@ function Join() {
 
           {/* GroupMe QR Code */}
           <div className="qr-code-container">
-            <img src="~/quantclub/quant-club-website/groupmeqr.png" alt="GroupMe QR Code" className="qr-code" />
+            <img src="../../../public/customimgs/groupmeqr.jpg" alt="GroupMe QR Code" className="qr-code" />
           </div>
 
           {/* Contact Info */}
