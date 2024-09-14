@@ -1,12 +1,20 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/");
+  };
+
   return (
     <header>
-        <div className="logo">RQFC</div>
-        <h3>Events</h3>
-        <h3>Work with Us</h3>
-        <h3>Join</h3>
+        <div onClick={handleClick} className="logo">RQFC</div>
+        <Link to="/events" className="link">Events</Link>
+        <Link to="/work-with-us" className="link">Work with Us</Link>
+        <Link to="/join" className="link">Join</Link>
     </header>
   )
 }

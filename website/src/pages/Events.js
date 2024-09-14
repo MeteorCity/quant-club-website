@@ -1,8 +1,11 @@
 import React from 'react';
+import Header from "../components/Header";
 
 function Events() {
   return (
-    <div>Events</div>
+    <div className="events-page">
+      <Header />
+    </div>
   )
 }
 

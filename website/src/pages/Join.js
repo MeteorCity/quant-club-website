@@ -1,8 +1,11 @@
 import React from 'react';
+import Header from "../components/Header";
 
 function Join() {
   return (
-    <div>Join</div>
+    <div className="join-page">
+      <Header />
+    </div>
   )
 }
 

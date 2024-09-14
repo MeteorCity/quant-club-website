@@ -1,8 +1,11 @@
 import React from 'react';
+import Header from "../components/Header";
 
 function WorkWithUs() {
   return (
-    <div>WorkWithUs</div>
+    <div className="wwu-page">
+      <Header />
+    </div>
   )
 }
 
