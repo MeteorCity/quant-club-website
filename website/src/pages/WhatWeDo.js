@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from "../components/Header";
 
-function WorkWithUs() {
+function WhatWeDo() {
   return (
-    <div className="wwu-page">
+    <div className="wwd-page">
       <Header />
     </div>
   )
 }
 
-export default WorkWithUs
+export default WhatWeDo

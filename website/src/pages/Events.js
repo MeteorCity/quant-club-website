@@ -5,6 +5,7 @@ function Events() {
   return (
     <div className="events-page">
       <Header />
+      
     </div>
   )
 }
