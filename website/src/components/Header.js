@@ -12,8 +12,8 @@ function Header() {
   return (
     <header>
         <div onClick={handleClick} className="logo">RQFC</div>
+        <Link to="/about-us" className="link">About Us</Link>
         <Link to="/events" className="link">Events</Link>
-        <Link to="/what-we-do" className="link">What we do</Link>
         <Link to="/join" className="link">Join</Link>
     </header>
   )
