@@ -38,7 +38,7 @@ function AboutUs() {
         <section className="trading-competition">
           <h2>Trading Competitions</h2>
           <p>
-            Every few weeks, RQFC participates in the CME Group University Trading Challenge. This competition gives our members a chance to apply their skills in real-world futures trading scenarios, competing against top students from around the globe. 
+            Every few weeks, RQFC participates in simulated trading challenges. These competitions gives our members a chance to apply their skills in real-world futures trading scenarios, competing against top students from around the globe. 
           </p>
         </section>
       </main>
